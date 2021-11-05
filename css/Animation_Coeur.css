@@ -1,0 +1,17 @@
+.heart {
+    color: red;
+    position: absolute;
+    font-size: 15px;
+    animation: heart 0.8s ease infinite;
+}
+
+@keyframes heart {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
